@@ -43,10 +43,16 @@ Description: "The last qualified encounter foe this enrolment"
 * extension 0..0
 * value[x] only Reference(Encounter)
 
-/*
+
 Instance: MyWaiRegistrationExample
 InstanceOf: MyWaiRegistration
 Description: "An example instance of a MyWaiRegistration EpisodeOfCare resource. This is what the API would return."
+* id = "2384983849"
+* patient.identifier.system = "https://standards.digital.health.nz/ns/nhi-id"
+* patient.identifier.value = "ZZZ0008"
+* status = #active
+
+/*
 * name
   * given[0] = "James"
   * family = "Pond"
